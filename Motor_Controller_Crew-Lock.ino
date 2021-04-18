@@ -1,4 +1,4 @@
-/* This example shows basic use of the AMIS-30543 stepper motor driver. It shows how to initialize the driver, set the current limit, set the micro-stepping mode, and enable the driver. It shows how to send pulses to the NXT/STEP pin to get the driver to take steps and how to switch directions using the DIR pin. The DO pin is not used and does not need to be connected. Before using this example, be sure to change the setCurrentMilliamps line to have an appropriate current limit for your system. Also, see this library's documentation for information about how to connect the driver: http://pololu.github.io/amis-30543-arduino/ */ 
+/* AMIS-30543 stepper motor driver; the driver: http://pololu.github.io/amis-30543-arduino/ */ 
 /* Note: * Pin 11 - MOSI * Pin 12 - MISO * Pin 13 - SCK */
 
 #include #include const uint8_t amisDirPin = 2; 
